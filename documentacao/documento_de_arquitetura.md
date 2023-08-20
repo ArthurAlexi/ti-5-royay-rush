@@ -39,7 +39,7 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 | **Data** | **Autor** | **Descrição** | **Versão** |
 | --- | --- | --- | --- |
-| **[dd/mm/aaaa]** | [Nome do autor] | [Descrever as principais alterações realizadas no documento, evidenciando as seções ou capítulos alterados] | [X] |
+| **[20/08/2023]** | Arthur Alexi | Versões iniciais das seção 1 | [X] |
 | | | | |
 | | | | |
 
@@ -75,18 +75,38 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 _Faça uma introdução ao projeto, apresentando o contexto onde o projeto se situa. É importante deixar claro para o leitor os aspectos que configuram o problema que será apresentado na sequência. Apresente, se possível, números reais que demonstram a relevância do problema apresentado._
 
+No cenário atual, o Brasil se destaca como o maior consumidor de jogos eletrônicos na América Latina e ocupa a 13ª posição entre os maiores mercados de games do mundo, de acordo com dados fornecidos pela renomada empresa global de análise de dados sobre games, a Newzoo. O setor de videogames no país movimentou um impressionante montante de US$2,3 bilhões somente no ano de 2021. Além disso, a Pesquisa Game Brasil 2022 revelou que cerca de 74,5% da população brasileira é adepta dos jogos eletrônicos.
+
+Nesse contexto promissor e altamente receptivo ao entretenimento digital, emerge a proposta deste projeto: a criação e disponibilização de uma ampla variedade de jogos de azar e experiências emocionantes por meio de dispositivos eletrônicos. A convergência entre o crescente interesse por jogos eletrônicos e a conveniência de acessá-los a partir de qualquer lugar e a qualquer hora, por meio de cassinos online, reconfigura completamente a maneira como o entretenimento é vivenciado.
 
 ## 1.1. Problema
 
 _Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação._
 
+Nos dias de hoje, enfrentamos uma série de desafios que demandam uma reavaliação de nossos hábitos de consumo de entretenimento. A rápida evolução da tecnologia e das opções de lazer nos obriga a constantemente adaptar nossa maneira de desfrutar do entretenimento. Além disso, a dificuldade de acessar certas formas de entretenimento devido a restrições e limitações torna evidente a necessidade de encontrar alternativas. Um exemplo notável disso é a crescente dificuldade de participar presencialmente em locais como cassinos para desfrutar de jogos de azar. Com restrições de viagem e preocupações com saúde, muitos indivíduos agora enfrentam obstáculos significativos ao tentar vivenciar essa experiência tradicionalmente presencial. Como resultado, estamos sendo impulsionados a explorar soluções inovadoras que nos permitam continuar a desfrutar de entretenimento de maneiras que se adaptem à nossa realidade em constante mudança.
+
 ## 1.2. Objetivos do trabalho
 
 _Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é apresentar a descrição do projeto arquitetural da aplicação escolhida. Apresente também os objetivos específicos do projeto, descrevendo onde você vai concentrar sua atenção na descrição arquitetural, ou seja, os pontos onde você vai aprofundar no seu trabalho._
 
+O propósito fundamental deste projeto é conceber e desenvolver um cassino online inovador, adotando como base o modelo Web Service. Nesse sentido, o sistema projetado oferecerá um ambiente acessível tanto por meio de interfaces web quanto móveis, estabelecendo uma interconexão eficiente por meio de middlewares e tecnologias pertinentes ao âmbito de processamento de mensagens em tempo real.
+
+A troca de mensagens emerge como um elemento central dentro desse sistema, desempenhando um papel crucial nas notificações e na execução de jogos como Crash e Blackjack nas diversas salas virtuais disponibilizadas pelo empreendimento Royal Rush. Essa abordagem possibilita a implementação de um servidor unificado, capaz de unir vários clientes em uma plataforma que permite transações e jogos simultâneos.
+
+Em conformidade com o objetivo geral deste projeto, a ênfase recai na descrição completa e meticulosa da arquitetura da aplicação selecionada. Para atingir esse objetivo, os seguintes objetivos específicos foram estabelecidos como focos primordiais de atenção:
+
+* Elaboração da Estrutura Arquitetural
+
+* Integração de Tecnologias de Mensageria
+
+* Detalhamento das Salas Virtuais
+
+* Implementação de Notificações e Jogos
+
+* Construção do Servidor Único
 ## 1.3. Definições e Abreviaturas
 
-Coloque aqui as definições, siglas e abreviaturas utilizadas no trabalho._
+_Coloque aqui as definições, siglas e abreviaturas utilizadas no trabalho._
 
 <a name="requisitos"></a>
 # 2. Requisitos
