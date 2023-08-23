@@ -1,5 +1,7 @@
 # Royal Rush
 
+https://www.figma.com/file/xBVaVtBhD0s87nYoUd7RVx/Prot%C3%B3tipo-Royal-Rush?type=design&node-id=0%3A1&mode=design&t=dTNti8sDkA9oL3Pc-1
+
 O objetivo deste projeto é elaborar um cassino online baseado no modelo Web Service. Para isso, o sistema
 irá prover um ambiente web e móvel que se comunicam por meio de middlewares e tecnologias associadas no contexto de processamento de mensagens em tempo real mensageria.
 
