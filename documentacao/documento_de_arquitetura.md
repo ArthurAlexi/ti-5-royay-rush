@@ -40,7 +40,7 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 | **Data** | **Autor** | **Descrição** | **Versão** |
 | --- | --- | --- | --- |
 | **[20/08/2023]** | Arthur Alexi | Versões iniciais das seção 1 | [X] |
-| | | | |
+| **[22/08/2023]** | Arthur Alexi | Versão inicial do tópico: 3.1 | |
 | | | | |
 
 ## SUMÁRIO
@@ -104,6 +104,7 @@ Em conformidade com o objetivo geral deste projeto, a ênfase recai na descriç�
 * Implementação de Notificações e Jogos
 
 * Construção do Servidor Único
+
 ## 1.3. Definições e Abreviaturas
 
 _Coloque aqui as definições, siglas e abreviaturas utilizadas no trabalho._
@@ -180,11 +181,12 @@ Obs: substitua esta imagem por outra, adequada ao seu projeto (cada arquitetura 
 
 _Apresente uma lista simples com as funcionalidades previstas no projeto (escopo do produto)._
 
-1. O sistema deve...
-2. O sistema deve...
-3. ...
-
-Obs: a quantidade e o escopo das funcionalidades deve ser negociado com os professores/orientadores do trabalho.
+1. O Sistema deve possibilitar o cadastro de usuários e consequentemente um ambiente para logar no app 
+2. O Sistema deve disponibilizar um sistema  de escolha de jogos por meio de salas 
+3. O Sistema deve disponibilizar dois tipos de jogos iniciais: Crash e Black Jack
+4. O Sistema deve gerenciar as partidas dos jogos disponibilizados
+5. O Sistema deve gerenciar as apostas realizadas nas partidas dos jogos
+6. o Sistema deve gerar um extrato das transições realizadas pelo usuário 
 
 ### Descrição resumida dos Casos de Uso / Histórias de Usuário
 
@@ -192,7 +194,16 @@ _Nesta seção, os casos de uso devem ser resumidos. Esse detalhamento pode ser 
 
 Exemplos de resumo de Casos de Uso:
 
-#### UC01 – NOME DO CASO DE USO 01
+#### UC01 – Cadastrar no Sistema 01
+
+| **Descrição** | |
+| --- | --- |
+| **Atores** | Cliente |
+| **Prioridade** | |
+| **Requisitos associados** | |
+| **Fluxo Principal** | |
+
+#### UC02 – Logar no Sistema 02
 
 | **Descrição** | |
 | --- | --- |
@@ -201,7 +212,7 @@ Exemplos de resumo de Casos de Uso:
 | **Requisitos associados** | |
 | **Fluxo Principal** | |
 
-#### UC02 – NOME DO CASO DE USO 02
+#### UC03 – Apostar em um jogo  03
 
 | **Descrição** | |
 | --- | --- |
@@ -210,13 +221,13 @@ Exemplos de resumo de Casos de Uso:
 | **Requisitos associados** | |
 | **Fluxo Principal** | |
 
-Exemplos de Histórias de Usuário:
+Histórias de Usuário:
 
-- Como Fulano eu quero poder convidar meus amigos para que a gente possa se reunir...
+- Como Usuário eu quero me cadastrar e logar, com o e-mail e senha, no sistema para ter acesso as funções disponibilizadas pelo aplicativo
 
-- Como Cicrano eu quero poder organizar minhas tarefas diárias, para que...
+- Como Usuário eu quero poder comprar moedas para que eu possa apostar nos jogos disponibilizados no sistema
 
-- Como gerente eu quero conseguir entender o progresso do trabalho do meu time, para que eu possa ter relatórios periódicos dos nossos acertos e falhas.
+- Como Apostador eu quero conseguir selecionar o jogo o qual eu quero participar e informar o valor que quero apostar.
 
 ## 3.2. Visão Lógica
 
@@ -246,15 +257,6 @@ Ex: conforme diagrama apresentado na Figura X, as entidades participantes da sol
 - **Componente 1** - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc magna, accumsan eget porta a, tincidunt sed mauris. Suspendisse orci nulla, sagittis a lorem laoreet, tincidunt imperdiet ipsum. Morbi malesuada pretium suscipit.
 - **Componente 2** - Praesent nec nisi hendrerit, ullamcorper tortor non, rutrum sem. In non lectus tortor. Nulla vel tincidunt eros.
 
-## 3.3. Modelo de dados (opcional)
-
-_Caso julgue necessário para explicar a arquitetura, apresente o diagrama de classes ou diagrama de Entidade/Relacionamentos ou tabelas do banco de dados. Este modelo pode ser essencial caso a arquitetura utilize uma solução de banco de dados distribuídos ou um banco NoSQL._
-
-![Diagrama de Entidade Relacionamento (ER) ](imagens/der.png "Diagrama de Entidade Relacionamento (ER) ")
-
-**Figura 4 – Diagrama de Entidade Relacionamento (ER) - exemplo. Fonte: o próprio autor.**
-
-Obs: Acrescente uma breve descrição sobre o diagrama apresentado na Figura 3.
 
 <a name="avaliacao"></a>
 # 4. Avaliação da Arquitetura
