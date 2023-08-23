@@ -41,7 +41,7 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 | --- | --- | --- | --- |
 | **[20/08/2023]** | Arthur Alexi | Versões iniciais das seção 1 | [X] |
 | **[22/08/2023]** | Arthur Alexi | Versão inicial do tópico: 3.1 | |
-| | | | |
+| **[22/08/2023]** | Pablo Augusto | Versão inicial Diagrama de Classes e componentes | |
 
 ## SUMÁRIO
 
@@ -235,10 +235,9 @@ _Apresente os artefatos que serão utilizados descrevendo em linhas gerais as mo
 
 ### Diagrama de Classes
 
-![Diagrama de classes](imagens/classes.gif "Diagrama de classes")
+![royal-flush-classes](https://github.com/ArthurAlexi/ti-5-royay-rush/assets/90854173/4b7f356b-c466-4695-afed-3175f8547fbe)
 
-
-**Figura 2 – Diagrama de classes (exemplo). Fonte: o próprio autor.**
+**Figura 2 – Diagrama de classes. Fonte: o próprio autor.**
 
 Obs: Acrescente uma breve descrição sobre o diagrama apresentado na Figura 3.
 
@@ -246,9 +245,9 @@ Obs: Acrescente uma breve descrição sobre o diagrama apresentado na Figura 3.
 
 _Apresente o diagrama de componentes da aplicação, indicando, os elementos da arquitetura e as interfaces entre eles. Liste os estilos/padrões arquiteturais utilizados e faça uma descrição sucinta dos componentes indicando o papel de cada um deles dentro da arquitetura/estilo/padrão arquitetural. Indique também quais componentes serão reutilizados (navegadores, SGBDs, middlewares, etc), quais componentes serão adquiridos por serem proprietários e quais componentes precisam ser desenvolvidos._
 
-![Diagrama de componentes](imagens/componentes.png "Diagrama de componentes")
+![Diagrama de Componentes drawio](https://github.com/ArthurAlexi/ti-5-royay-rush/assets/90854173/8c23ab82-0236-4e72-9af7-d649e97a661d)
 
-**Figura 3 – Diagrama de Componentes (exemplo). Fonte: o próprio autor.**
+**Figura 3 – Diagrama de Componentes. Fonte: o próprio autor.**
 
 _Apresente uma descrição detalhada dos artefatos que constituem o diagrama de implantação._
 
